@@ -4,7 +4,7 @@ pipeline {
         DIRECTORY_PATH = '/path/to/your/code'
         TESTING_ENVIRONMENT = 'TestingEnv'
         PRODUCTION_ENVIRONMENT = 'VincentProduction'
-        RECIPIENT_EMAIL = 'youremail@example.com'
+        RECIPIENT_EMAIL = 'tricloud360@gmail.com'  
     }
     stages {
         stage('Initial Delay') {
@@ -88,5 +88,3 @@ pipeline {
         }
     }
 }
-
-### Jenkinsfile End ###
